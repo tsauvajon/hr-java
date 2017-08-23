@@ -1,4 +1,9 @@
 package com.github.tsauvajon.hrjava.java.dataStructures.generics;
 
-public class Printer {
+class Printer {
+    <T> void printArray(T[] array) {
+        for (T anArray : array) {
+            System.out.println(anArray);
+        }
+    }
 }

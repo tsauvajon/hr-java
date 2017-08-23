@@ -16,7 +16,7 @@ class MyCalculator {
     }
 }
 
-public class Solution {
+class Solution {
     private static final Scanner in = new Scanner(System.in);
     private static final MyCalculator my_calculator = new MyCalculator();
 

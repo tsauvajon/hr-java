@@ -3,7 +3,7 @@ package com.github.tsauvajon.hrjava.java.bigNumber.bigInteger;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

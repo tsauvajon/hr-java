@@ -2,7 +2,7 @@ package com.github.tsauvajon.hrjava.java.introduction.javaEndOfFile;
 
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

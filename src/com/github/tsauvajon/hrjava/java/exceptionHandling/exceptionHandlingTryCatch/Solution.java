@@ -3,7 +3,7 @@ package com.github.tsauvajon.hrjava.java.exceptionHandling.exceptionHandlingTryC
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

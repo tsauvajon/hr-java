@@ -3,7 +3,7 @@ package com.github.tsauvajon.hrjava.java.introduction.javaDateAndTime;
 import java.util.Calendar;
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
     private static String getDay(String day, String month, String year) {
         Calendar rightNow = Calendar.getInstance();
 
@@ -11,6 +11,7 @@ public class Solution {
         int m = Integer.valueOf(month);
         int y = Integer.valueOf(year);
 
+        //noinspection MagicConstant
         rightNow.set(y, m - 1, d);
 
         switch (rightNow.get(Calendar.DAY_OF_WEEK)) {

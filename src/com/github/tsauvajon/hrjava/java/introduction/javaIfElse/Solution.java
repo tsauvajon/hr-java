@@ -2,15 +2,15 @@ package com.github.tsauvajon.hrjava.java.introduction.javaIfElse;
 
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int n=sc.nextInt();
-        String ans="";
+        int n = sc.nextInt();
+        String ans = "";
 
-        if(n%2==1){
+        if (n % 2 == 1) {
             ans = "Weird";
         } else if (n >= 2 && n <= 5) {
             ans = "Not Weird";

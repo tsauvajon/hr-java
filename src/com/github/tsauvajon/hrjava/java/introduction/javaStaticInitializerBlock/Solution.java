@@ -2,9 +2,10 @@ package com.github.tsauvajon.hrjava.java.introduction.javaStaticInitializerBlock
 
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
     private final static int B;
     private final static int H;
+    @SuppressWarnings("CanBeFinal")
     private static boolean flag = true;
 
     static {

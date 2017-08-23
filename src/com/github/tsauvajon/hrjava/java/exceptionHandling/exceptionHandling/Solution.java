@@ -17,7 +17,7 @@ class MyCalculator {
 }
 
 public class Solution {
-    public static final Scanner in = new Scanner(System.in);
+    private static final Scanner in = new Scanner(System.in);
     private static final MyCalculator my_calculator = new MyCalculator();
 
     public static void main(String[] args) {

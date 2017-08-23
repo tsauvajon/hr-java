@@ -3,8 +3,8 @@ package com.github.tsauvajon.hrjava.java.introduction.javaStaticInitializerBlock
 import java.util.Scanner;
 
 public class Solution {
-    private static int B;
-    private static int H;
+    private final static int B;
+    private final static int H;
     private static boolean flag = true;
 
     static {

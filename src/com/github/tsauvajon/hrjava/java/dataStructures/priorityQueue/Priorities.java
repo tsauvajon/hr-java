@@ -13,10 +13,8 @@ class Priorities extends PriorityQueue<Student> {
     }
 
     List<Student> getStudents(List<String> events) {
-        int n = events.size();
-
-        for (int i = 0; i < n; i++) {
-            String[] event = events.get(i).split(" ");
+        for (String event1 : events) {
+            String[] event = event1.split(" ");
 
             String type = event[0];
 

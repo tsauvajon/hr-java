@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 class Solution {
     private final static Scanner scan = new Scanner(System.in);
+    @SuppressWarnings("MismatchedQueryAndUpdateOfCollection")
     private final static Priorities priorities = new Priorities();
 
     public static void main(String[] args) {

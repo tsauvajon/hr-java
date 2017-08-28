@@ -1,4 +1,4 @@
-package com.github.tsauvajon.hrjava.thirtyDaysOfCode.day13abstractClasses;
+package com.github.tsauvajon.hrjava.thirtyDaysOfCode.day13AbstractClasses;
 
 abstract class Book {
     final String title;

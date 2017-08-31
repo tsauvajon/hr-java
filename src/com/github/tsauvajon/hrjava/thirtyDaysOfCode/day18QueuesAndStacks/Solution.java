@@ -1,6 +1,6 @@
 package com.github.tsauvajon.hrjava.thirtyDaysOfCode.day18QueuesAndStacks;
 
-import java.util.Scanner;
+import java.util.*;
 
 class Solution {
     public static void main(String[] args) {
@@ -34,21 +34,22 @@ class Solution {
                 + ((!isPalindrome) ? "not a palindrome." : "a palindrome."));
     }
 
+    private Stack<Character> stack = new Stack();
+    private Queue<Character> queue = new LinkedList();
+
     private void pushCharacter(char c) {
-        // TODO
+        stack.push(c);
     }
 
     private void enqueueCharacter(char c) {
-        // TODO
+        queue.add(c);
     }
 
     private char popCharacter() {
-        // TODO
-        return 't';
+        return stack.pop();
     }
 
     private char dequeueCharacter() {
-        // TODO
-        return 't';
+        return queue.remove();
     }
 }

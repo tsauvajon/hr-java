@@ -3,6 +3,7 @@ package com.github.tsauvajon.hrjava.thirtyDaysOfCode.day24MoreLinkedLists;
 import java.util.Scanner;
 
 class Solution {
+    // iterative solution
     public static Node removeDuplicates(Node head) {
         Node root = head;
 
@@ -15,6 +16,21 @@ class Solution {
         }
 
         return root;
+    }
+
+    // recursive solution
+    public static Node removeDuplicatesRecursively(Node head) {
+        if (head == null) {
+            return head;
+        }
+
+        while (head.next != null && head.next.data == head.data) {
+            head.next = head.next.next;
+        }
+
+        head.next = removeDuplicatesRecursively(head.next);
+
+        return head;
     }
 
     public static Node insert(Node head, int data) {
@@ -49,7 +65,7 @@ class Solution {
             int ele = sc.nextInt();
             head = insert(head, ele);
         }
-        head = removeDuplicates(head);
+        head = removeDuplicatesRecursively(head);
         display(head);
 
     }
